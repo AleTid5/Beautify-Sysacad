@@ -1,0 +1,12 @@
+{
+  "name": "Beautify Sysacad",
+  "version": "0.1",
+  "description": "Extension para mejorar la vista del sysacad y hacerlo un poco mas agradable a la vista de cualquier ser humano.",
+  "manifest_version": 2,
+  "author": "Alejandro M. Tidele",
+   "content_scripts": [{
+    "css": ["app.css"],
+    "js": ["app.js"],
+    "matches": ["http://sysacadweb.frgp.utn.edu.ar/*"]
+  }]
+}
